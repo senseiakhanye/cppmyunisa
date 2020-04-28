@@ -6,7 +6,7 @@ int main()
 {
     int number = 40;
     int answer;
-    cout << "Thin of a number between 30 and 50, write it down" << endl;
+    cout << "Think of a number between 30 and 50, write it down" << endl;
     cout << "Then do the following calculations on paper : " << endl << endl;
     cin.get( );
     cout << "Double it : " << endl;
