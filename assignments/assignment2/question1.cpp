@@ -2,8 +2,10 @@
 
 using namespace std;
 
+// Cannot make it a value return function, two values are required, hence passing reference parameters.
 void getData(float & weight, float & height)
 {
+    cout << "=================" << endl;
     cout << "CALCULATE YOU BMI" << endl;
     cout << "=================" << endl;
     cout << "Enter weight (kg): ";
@@ -12,6 +14,7 @@ void getData(float & weight, float & height)
     cin >> height;
 }
 
+// Caluclate and return the BMI
 float calcBMI(float weight, float height)
 {
     return weight / (height * height);

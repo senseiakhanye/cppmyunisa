@@ -7,6 +7,7 @@ int main()
     const float VAT = 0.14;
     float amount, total, subTotal;
 
+    subTotal = 0;
     do
     {
         cout << "Enter amount (0 to exit) : ";
